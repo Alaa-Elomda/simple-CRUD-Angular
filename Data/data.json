@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alaa",
+      "age": 27,
+      "phone": "011111",
+      "city": "ismailia",
+      "BuildNo": 20,
+      "email": "alaa@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Tamer",
+      "age": 22,
+      "phone": "022222222",
+      "city": "cairo",
+      "BuildNo": 30,
+      "email": "tamer@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Sama",
+      "age": 25,
+      "phone": "0333333",
+      "city": "alex",
+      "BuildNo": 40,
+      "email": "sama@gmail.com"
+    },
+    {
+      "id": 4,
+      "name": "Nada",
+      "age": 24,
+      "phone": "0444444",
+      "city": "cairo",
+      "BuildNo": 50,
+      "email": "nada@gmail.com"
+    },
+    {
+      "id": 5,
+      "name": "Ola",
+      "age": "29",
+      "phone": "0666666",
+      "city": "Mansoura",
+      "BuildNo": 70,
+      "email": "ola@gmail.com"
+    },
+    {
+      "name": "Esraa",
+      "age": 34,
+      "phone": "265",
+      "city": "ismailia",
+      "BuildNo": "20",
+      "email": "els@jjs.sss",
+      "id": 6
+    }
+  ]
+}

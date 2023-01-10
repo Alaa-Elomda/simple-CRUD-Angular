@@ -1,0 +1,36 @@
+<div class="w-50 mx-auto">
+<h2 class="border-bottom border-dark">Update User</h2>
+<div class="container alert first">
+  <div class="row">
+      <form [formGroup]="form">
+          <div class="form-group d-flex p-3 g-3">
+              <label class="col-3 fw-bold">Name</label>
+              <input placeholder="Name" formControlName="name" type="text" class="form-control"/>
+          </div>
+          <div class="form-group d-flex p-3 g-3">
+              <label class="col-3 fw-bold">Age</label>
+              <input placeholder="Age" formControlName="age" type="number" class="form-control"/>
+          </div>
+          <div class="form-group d-flex p-3 g-3">
+              <label class="col-3 fw-bold">Phone</label>
+              <input placeholder="Phone" formControlName="phone" type="text" class="form-control"/>
+          </div>
+          <div class="form-group d-flex p-3 g-3">
+              <label class="col-3 fw-bold">City</label>
+              <input placeholder="City" formControlName="city" type="text" class="form-control"/>
+          </div>
+          <div class="form-group d-flex p-3 g-3">
+              <label class="col-3 fw-bold">Build-No</label>
+              <input placeholder="Build-No" formControlName="BuildNo" type="text" class="form-control"/>
+          </div>
+          <div class="form-group d-flex p-3 g-3">
+              <label class="col-3 fw-bold">Email</label>
+              <input placeholder="Email" formControlName="email" type="text" class="form-control"/>
+          </div>
+          <div class="form-group d-flex justify-content-center">
+              <input type="submit" (click)="Update()" class="btn btn-outline-dark" value="Add"/>
+            </div>
+      </form>
+  </div>
+</div>
+</div>

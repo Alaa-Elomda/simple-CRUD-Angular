@@ -1,0 +1,15 @@
+<div class="w-50 mx-auto">
+<h2 class="border-bottom border-dark shadow p-3 mb-5 rounded fw-bold">User Details</h2>
+
+<div *ngIf="user ; else loadingBlock" class="alert alert-warning" role="alert">
+    <h4>Name: {{user.name}}</h4>
+    <p><span style="font-weight:bold;">Age</span>: {{user.age}}</p>
+    <p><span style="font-weight:bold;">Phone: </span>{{user.phone}}</p>
+    <p><span style="font-weight:bold;">Address: </span> {{user.BuildNo}} , {{user.city}}</p>
+    <p><span style="font-weight:bold;">Email: </span>{{user.email}}</p>
+  </div>
+  
+  <ng-template #loadingBlock>
+    <h1>Loading....</h1>
+  </ng-template>
+</div>

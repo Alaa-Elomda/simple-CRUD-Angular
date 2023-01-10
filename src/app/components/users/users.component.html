@@ -1,0 +1,34 @@
+<div class="table-responsive w-75 mx-auto">
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark text-center">
+            <tr class="align-middle">
+                <th rowspan="2">ID</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Adress</th>
+                <th rowspan="2">Age</th>
+                <th rowspan="2">Update</th>
+                <th rowspan="2">Delete</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>Build-No.</th>
+            </tr>
+    
+        </thead>
+        <tbody class="table-warning text-center">
+            <tr *ngFor="let s of users">
+                <td><a routerLink="/details/{{s.id}}"><button type="button" class="btn btn-outline-dark">{{s.id}}</button></a></td>
+                <td>{{s.name}}</td>
+                <td>{{s.city}}</td>
+                <td>{{s.BuildNo}}</td>
+                <td>{{s.age}}</td>
+                
+                <td><a class="btn btn-outline-dark" routerLink="/update" (click)="Update($event,s.id)">Update</a></td>
+                <td><a class="btn btn-outline-dark" routerLink="/delete" (click)="Delete($event,s.id)">Delete</a></td>
+                
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+
